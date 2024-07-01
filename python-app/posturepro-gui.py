@@ -18,7 +18,7 @@ def sendWarning():
 good_frames = 0
 bad_frames = 0
 font = cv2.FONT_HERSHEY_SIMPLEX
-blue = (255, 127, 0)
+blue = (255, 130, 0)
 red = (50, 50, 255)
 green = (127, 255, 0)
 dark_blue = (127, 20, 0)
