@@ -24,7 +24,7 @@ class PostureDetector {
             const stream = await navigator.mediaDevices.getUserMedia({ 
                 video: { 
                     width: 640,
-                    height: 480,
+                    height: 460,
                     facingMode: 'user'
                 } 
             });
