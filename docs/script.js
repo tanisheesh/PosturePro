@@ -23,7 +23,7 @@ class PostureDetector {
             document.getElementById('loadingMessage').style.display = 'none';
             const stream = await navigator.mediaDevices.getUserMedia({ 
                 video: { 
-                    width: 640,
+                    width: 620,
                     height: 480,
                     facingMode: 'user'
                 } 
@@ -123,7 +123,7 @@ class PostureDetector {
             onFrame: async () => {
                 await pose.send({image: this.video});
             },
-            width: 640,
+            width: 620,
             height: 480
         });
 
